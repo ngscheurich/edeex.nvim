@@ -42,10 +42,9 @@ local function format_current_buf()
 end
 
 local function show_instructions()
-  local instructions = "Leave buffer to apply changes"
   if vim.g.edeex_mapping then
     local mapping = vim.g.edeex_mapping
-    instructions = string.format("%s or leave buffer to apply changes", mapping)
+    instructions = string.format("%s to apply changes", mapping)
   end
 
   show_message(instructions)
