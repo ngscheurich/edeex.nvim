@@ -2,7 +2,7 @@ local function show_error(msg) error("[EdEEx] " .. msg) end
 local function show_message(msg) vim.cmd(string.format("echomsg '[EdEEx] %s'", msg)) end
 
 local exists, ts_utils = pcall(require, "nvim-treesitter.ts_utils")
-if not exists then show_error("Treesitter is required") end
+if not exists then show_error("nvim-treesitter is required") end
 
 local M = {}
 
