@@ -1,4 +1,4 @@
-# 📝 EdEEX
+# EdEEX
 
 **EdEEX** is a Neovim plugin for editing embdedded [Phoenix LiveView] templates, inspired by [Org Mode]ʼs `org-edit-src-code`.
 
