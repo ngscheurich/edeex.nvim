@@ -4,10 +4,16 @@
 
 ## Installation
 
+### Requirements
+
+This plugin depends on [`nvim-treesitter`] and the [Elixir grammar].
+
+### Install
+
 Use Neovimʼs built-in packages feature (`:h packages`) or a plugin manager—[Packer] comes to mind:
 
 ```lua
-use "ngscheurich/edeex.nvim"
+use {"ngscheurich/edeex.nvim", requires = "nvim-treesitter/nvim-treesitter"}
 ```
 
 ## Usage
@@ -19,6 +25,7 @@ You can combine installation and setup into a single Packer form for convenience
 ```lua
 use {
   "ngscheurich/edeex.nvim",
+  requires = "nvim-treesitter/nvim-treesitter"
   config = function ()
     require("edeex").setup({mapping = "<C-c>e"})
   end
@@ -27,7 +34,7 @@ use {
 
 ### Example
 
-Assume you have configured EdEEx as above, and have the following Elixir code:
+Assuming you have configured EdEEx as above, and have the following Elixir code:
 
 ```elixir
 defmodule AppWeb.HelloLive do
@@ -75,4 +82,6 @@ This is a very beta-level plugin and could get broken or abandoned at any time. 
 
 [Org Mode]: https://orgmode.org/
 [Phoenix LiveView]: https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html
+[`nvim-treesitter`]: https://github.com/nvim-treesitter/nvim-treesitter
+[Elixir grammar]: https://github.com/elixir-lang/tree-sitter-elixir
 [Packer]: https://github.com/wbthomason/packer.nvim
