@@ -6,7 +6,7 @@
 
 ### Requirements
 
-This plugin depends on [`nvim-treesitter`] and the [Elixir grammar].
+This plugin depends on [`nvim-treesitter`] and the [Elixir Tree-sitter grammar].
 
 ### Install
 
@@ -83,5 +83,5 @@ This is a very beta-level plugin and could get broken or abandoned at any time. 
 [Org Mode]: https://orgmode.org/
 [Phoenix LiveView]: https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html
 [`nvim-treesitter`]: https://github.com/nvim-treesitter/nvim-treesitter
-[Elixir grammar]: https://github.com/elixir-lang/tree-sitter-elixir
+[Elixir Tree-sitter grammar]: https://github.com/elixir-lang/tree-sitter-elixir
 [Packer]: https://github.com/wbthomason/packer.nvim
