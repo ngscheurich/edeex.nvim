@@ -72,11 +72,11 @@ The bufferʼs `filetype` is set to `eelixir` and it inherits the indentation set
 
 ## Options
 
-| Name         | Default | Description                                                                   |
-| ------------ | ------- | ----------------------------------------------------------------------------- |
-| `mapping`    | `nil`   | Key mapping that will enter and exit the edit buffer (Normal and Insert mode) |
-| `split`      | `true`  | Open a horizontal split when summoning the edit buffer                        |
-| `autoformat` | `true`  | Automatically format EEx code when entering and leaving the edit buffer       |
+| Name         | Default | Description                                                            |
+| ------------ | ------- | ---------------------------------------------------------------------- |
+| `mapping`    | `nil`   | Key mapping to enter and exit the edit buffer (Normal and Insert mode) |
+| `split`      | `true`  | Open a horizontal split when summoning the edit buffer                 |
+| `autoformat` | `true`  | Format EEx code when entering and leaving the edit buffer              |
 
 ## Note
 
